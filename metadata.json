@@ -1,0 +1,7 @@
+{
+  "name": "AirSense Pro",
+  "description": "Advanced AI-Powered Air Quality Monitoring System with real-time data, interactive maps, and Gemini-powered assistance.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

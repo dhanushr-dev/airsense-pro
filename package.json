@@ -1,0 +1,42 @@
+{
+  "name": "airsense-pro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "build:web": "npm run build",
+    "capacitor:init": "npx cap init",
+    "capacitor:copy": "npx cap copy",
+    "sync:android": "npx cap sync android",
+    "open:android": "npx cap open android",
+    "build:android": "npm run build:web && npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/device": "^8.0.0",
+    "@capacitor/geolocation": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@google/genai": "^1.30.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^2.12.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@types/leaflet": "^1.9.8",
+    "@types/node": "^25.0.1",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^7.2.7"
+  }
+}

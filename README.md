@@ -1,16 +1,9 @@
 # 🌬️ AirSense Pro - Next-Generation AI Air Quality Tracker
 
-<div align="center">
-  <img width="1200" height="475" alt="AirSense Pro Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-  
-  <p align="center">
-    <strong>A high-performance web and mobile application integrating 8 multi-source APIs with Google Gemini AI for advanced environmental tracking.</strong>
-  </p>
+A high-performance web and mobile application integrating 8 multi-source APIs with Google Gemini AI for advanced environmental tracking.
 
-  <p align="center">
-    <a href="https://airsensepro.netlify.app">🌐 Live Web Application</a>
-  </p>
-</div>
+🌐 **[Live Web Application](https://airsensepro.netlify.app)**
+
 
 ---
 

@@ -1,10 +1,28 @@
-# 🌬️ AirSense Pro - Next-Generation AI Air Quality Tracker
-### A Multi-Source Environmental Tracking & AI Forecasting System
-**[Live Web Application](https://airsensepro.netlify.app)**
+<div align="center">
+  <h1>🌬️ AirSense Pro</h1>
+  <p><strong>A Multi-Source Environmental Tracking & AI Forecasting System</strong></p>
 
-`React` `TypeScript` `Vite` `Capacitor` `Google Gemini AI` `Leaflet` `Recharts` `PWA`
+  <!-- Badges -->
+  <a href="https://airsensepro.netlify.app">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-AIRSENSE_PRO-3b82f6?style=flat-square&logo=google-chrome&logoColor=white" alt="Live Demo" />
+  </a>
+  <img src="https://img.shields.io/badge/React-18.2-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5.2-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-7.2-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Capacitor-8.0-119EFF?style=flat-square&logo=capacitor&logoColor=white" alt="Capacitor" />
+  <img src="https://img.shields.io/badge/Google_Gemini-2.5-8E75C2?style=flat-square&logo=google&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Leaflet-1.9-199900?style=flat-square&logo=leaflet&logoColor=white" alt="Leaflet" />
+  <img src="https://img.shields.io/badge/Netlify-Deployed-00C4B4?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
 
-A high-performance web and mobile application integrating 8 multi-source APIs with Google Gemini AI for advanced environmental tracking.
+  <br/><br/>
+  <p>
+    AirSense Pro is a production-ready, multi-source air quality tracking application integrating CPCB India, IQAir, WAQI, and other networks with Google Gemini AI for advanced forecasting, real-time map visualization, and health alerts.
+  </p>
+
+  <p>
+    <strong><a href="https://airsensepro.netlify.app">Live Demo</a> · <a href="#🚀-run-locally">Setup Guide</a></strong>
+  </p>
+</div>
 
 
 

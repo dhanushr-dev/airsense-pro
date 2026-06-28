@@ -1,8 +1,11 @@
 # 🌬️ AirSense Pro - Next-Generation AI Air Quality Tracker
+### A Multi-Source Environmental Tracking & AI Forecasting System
+**[Live Web Application](https://airsensepro.netlify.app)**
+
+`React` `TypeScript` `Vite` `Capacitor` `Google Gemini AI` `Leaflet` `Recharts` `PWA`
 
 A high-performance web and mobile application integrating 8 multi-source APIs with Google Gemini AI for advanced environmental tracking.
 
-🌐 **[Live Web Application](https://airsensepro.netlify.app)**
 
 
 ---

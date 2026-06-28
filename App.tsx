@@ -165,6 +165,10 @@ const App: React.FC = () => {
         try {
           const cache = await caches.open('airsense-data');
           await cache.put('last-location', new Response(JSON.stringify(coords)));
+          const iqairKey = import.meta.env.VITE_API_KEY_IQAIR || '';
+          if (iqairKey) {
+            await cache.put('iqair-key', new Response(JSON.stringify({ key: iqairKey })));
+          }
         } catch (e) { /* ignore */ }
       }
     } catch (error) {

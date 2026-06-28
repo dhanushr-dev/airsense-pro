@@ -107,17 +107,26 @@ self.addEventListener('periodicsync', (event) => {
 // Background AQI check function
 async function checkAQI() {
     try {
-        // Get last known location from cache
+        // Get last known location and API key from cache
         const cache = await caches.open('airsense-data');
         const locationData = await cache.match('last-location');
+        const keyData = await cache.match('iqair-key');
 
         if (!locationData) return;
 
         const { lat, lon } = await locationData.json();
 
+        let key = '';
+        if (keyData) {
+            const keyJson = await keyData.json();
+            key = keyJson.key || '';
+        }
+
+        if (!key) return; // Cannot check without API key
+
         // Fetch current AQI
         const response = await fetch(
-            `https://api.airvisual.com/v2/nearest_city?lat=${lat}&lon=${lon}&key=cdc3b556-3b4a-44ff-af77-8f6f363ff119`
+            `https://api.airvisual.com/v2/nearest_city?lat=${lat}&lon=${lon}&key=${key}`
         );
 
         if (!response.ok) return;

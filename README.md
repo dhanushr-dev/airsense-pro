@@ -127,3 +127,11 @@ For compiling and running the native Android wrapper:
    ```
 
 4. Run the app on a connected physical device or emulator directly inside Android Studio.
+
+---
+
+## 👤 Author
+
+**Dhanush**
+
+LinkedIn: [dhanushr-dev](https://www.linkedin.com/in/dhanushr-dev/)

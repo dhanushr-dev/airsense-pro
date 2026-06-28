@@ -13,6 +13,10 @@
   <img src="https://img.shields.io/badge/Google_Gemini-2.5-8E75C2?style=flat-square&logo=google&logoColor=white" alt="Gemini" />
   <img src="https://img.shields.io/badge/Leaflet-1.9-199900?style=flat-square&logo=leaflet&logoColor=white" alt="Leaflet" />
   <img src="https://img.shields.io/badge/Netlify-Deployed-00C4B4?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
+  <a href="https://www.linkedin.com/in/dhanushr-dev/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+
 
   <br/><br/>
   <p>

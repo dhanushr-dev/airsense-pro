@@ -132,6 +132,14 @@ For compiling and running the native Android wrapper:
 
 ## 👤 Author
 
-**Dhanush**
+**Dhanush R**
 
-LinkedIn: [dhanushr-dev](https://www.linkedin.com/in/dhanushr-dev/)
+📍 Mandya, Karnataka, India
+
+💼 LinkedIn: [dhanushr-dev](https://www.linkedin.com/in/dhanushr-dev/)
+
+📧 Email: dhanushrmdy@gmail.com
+
+🐙 GitHub: [dhanushr-dev](https://github.com/dhanushr-dev/)
+
+
